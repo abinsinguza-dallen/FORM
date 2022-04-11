@@ -5,12 +5,13 @@ body{
 
 }
  .Signup-box{
-    width: 340px;
+    width: 355px;
     height: 620px;
     margin: auto;
-    background-color: white;
-    border-radius: 4px;
-    justify-content: center;
+    background-color:#a87272;
+    border-radius: 40px;
+    justify-content: right;
+    margin-top: 20px;
 
  }
  
@@ -34,10 +35,8 @@ form{
  form input{
     width: 100%;
     padding: 7px;
-    border: none;
     border:  1px solid rgb(175,80,80);
     border-radius: 6px;
-    outline: none;
     text-align: center;
 
 }
@@ -45,7 +44,6 @@ input[type="button"]{
     width:320px;
     height: 35px;
     margin-top:20% ;
-    border: none;
     background-color: #d246d2;
     color: white;
     font-size: 18px;
@@ -55,13 +53,17 @@ p{
     padding-top: 20px;
     font-size: 15px;
 }
-.para-2{  
+.Already{  
     text-align: center;
     color: black;
     font-size: 15px;
     margin-top: -10px;
 }
-.Submit{
-    position: relative;
-    color: #c14949;
+.submit{
+    margin-top: 12px;
+font-size: 15px;
+    text-align: center;
+    
+}.btn{
+    margin-top: 10px;
 }

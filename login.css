@@ -4,10 +4,10 @@ body{
 }
 .Login-box{
     width: 360px;
-    height: 620px;
+    height: 400px;
     margin: auto;
-    background-color: white;
-    border-radius: 3px;
+    background-color: green;
+    border-radius: 40px;
     justify-content: center;
 }
 h1{
@@ -28,17 +28,14 @@ form label{
 form input{
     width: 100%;
     padding: 7px;
-    border: none;
     border: 1px solid rgb(175,80,80);
     border-radius: 6px;
-    outline: none;
     text-align: center;
 }
 input[type="button"]{
     width: 320px;
     height: 35px;
     margin-top: 20px;
-    border: none;
     background-color: #d2462d;
     color: white;
     font-size: 18px;
@@ -49,13 +46,10 @@ p{
     padding-top: 20px;
     font-size: 15px
 }
-.para-2{
+.Already{
     text-align: center;
     color: black;
     font-size: 15px;
     margin-top: -10px;
 
-}
-.para-2 a{
-    color: #c14949;
 }
